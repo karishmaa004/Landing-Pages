@@ -1,0 +1,90 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url('clothing.jpg');
+    background-size:cover;
+}
+
+nav{
+    box-sizing: border-box;
+    border: 4px solid rgb(205, 28, 99);
+    background-color:aliceblue;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+}
+
+nav h2{
+    margin-left: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+nav h2 span{
+    font-style: italic;
+    color:rgb(205, 28, 99);
+}
+
+nav ul{
+    flex: 1;    
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 4px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+nav ul li a:hover{
+    padding: 12px;
+    background-color: rgb(205, 28, 99);
+    transition: 1s;
+}
+
+nav .btn{
+    color:aliceblue;
+    text-decoration: none;
+    margin-right: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(205, 28, 99);
+}
+
+.content h1{
+    margin-top: 25%;
+    margin-right: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+    color:aliceblue;
+    font-style: 50px;
+}
+
+.content span{
+    color: black;
+}
+
+.shop{
+    margin-right: 10%;
+    margin-top: 2%;
+    font-size: 25px;
+    text-align: right;
+}
+
+.shop a{
+    text-decoration: none;
+    color: aliceblue;
+    float: right;
+    background-color: rgb(205, 28, 99);
+    padding: 10px;
+    border: 2px solid;
+}
